@@ -7,8 +7,8 @@ public class A {
 	}
 	public void opA() {
 		if (state) {
-			System.out.println("il test è superato");
+			System.out.println("Success");
 		}else
-			System.out.println("Il test è fallito ");
+			System.out.println("Failure");
 	}
 }
