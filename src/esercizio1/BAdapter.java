@@ -3,8 +3,9 @@ package esercizio1;
 public class BAdapter extends B implements Leaf {
 
 	@Override
-	public void test() {
-		opB();
+	public Boolean test() {
+		Boolean result = opB();
+		return result;
 	}
 
 }

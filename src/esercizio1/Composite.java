@@ -9,10 +9,12 @@ public class Composite implements Component {
 	}
 
 	@Override
-	public void test() {
+	public Boolean test() {
+		Boolean result = true;
 		for (Component child : children) {
-			child.test();
+			result &= child.test();
 		}
+		return result;
 	}
 	
 	public void addChild(Component c) {
