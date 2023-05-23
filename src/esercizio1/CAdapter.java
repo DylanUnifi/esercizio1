@@ -7,6 +7,7 @@ public class CAdapter extends Leaf {
 	public CAdapter() {
 		c = new C();
 	}
+	
 	@Override
 	public Boolean test() {
 		return c.opC();
